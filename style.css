@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+html{
+	font-family: Poppins;
+	color: white;
+}
+
+body{
+	background-image: linear-gradient(
+      115deg,
+      rgba(60, 60, 120, 0.7),
+      rgba(120, 120, 180, 0.6)
+    ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	max-height: 100%;
+	max-width: 100%;
+  background-color: blue;
+}
+
+#container{
+	max-height: 100%;
+	max-width: 100%;
+	margin-right: 20%;
+	margin-left:  20%;
+}
+
+header{
+	text-align: center;
+}
+
+h1{
+	font-size: 2em;
+}
+
+#description{
+	font-size: 1em;
+}
+
+form{
+	background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  font-size: 1.3em;
+	padding: 0.8em;
+  max-width: 700px;  
+  margin: auto;  
+
+}
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px 0px 30px;
+}
+
+.input{
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 0.8em;
+}
+
+.nea{
+  padding-top: 15px;
+}
+
+#comment{
+  height: 100px;
+  vertical-align: text-top;
+  font-family: Poppins;
+  font-size: 0.8em;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+button{
+  padding: 15px;
+  font-color: inherit;
+  cursor: pointer;
+  color: white;
+  background: #37af65;
+  font-size: 0.7em;
+}
